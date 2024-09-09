@@ -1,12 +1,18 @@
 <?php
 // Defining variable and assign it a value
-$x = 30;
+$x = 50;
 $y = 20;
 
-if ($x > $y){
-    echo "x > y";
-}
-else{
-    echo "x < y";
-}
+// 1st method to write if statement
+// if ($x > $y){
+//     echo "x > y";
+// }
+
+// 2nd method to write if statement
+    if ($x > $y):
+        echo "x > y";
+    endif;
+// else{
+//     echo "x < y";
+// }
 ?>
